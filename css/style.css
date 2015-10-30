@@ -53,7 +53,7 @@ button {
     color: #fff;
     cursor: pointer;
     position: relative;
-    margin-left: -44px
+    margin-left: -40px
 }
 
 .search .btn:hover {
@@ -96,7 +96,7 @@ button {
 
 .flash img {
     width: 600px;
-    height: 300px
+    height: 298px
 }
 
 .fazhi {
@@ -127,7 +127,7 @@ button {
 
 .item_ul {
     overflow: hidden;
-    height: 267px;
+    height: 265px;
     border: 1px solid #ccc;
     border-radius: 2px
 }
