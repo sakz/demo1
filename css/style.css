@@ -1,9 +1,12 @@
+html {
+    background: url(../images/qietu.png) repeat-x;
+}
 body {
     width: 100%;
     font-family: 'Microsoft Yahei', '微软雅黑', Tahoma, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
-    background: #fff url(../images/bgnew.png) no-repeat top center
+    background: #fff url(../images/bgnewnew.png) no-repeat top center;
 }
 
 input,
@@ -80,7 +83,7 @@ button {
     display: block;
     padding: 10px 35px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400px;
     color: #00559D;
     transition: all .5s
 }
