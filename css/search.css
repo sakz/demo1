@@ -1,0 +1,123 @@
+.banner {
+    margin-top: 10px;
+}
+
+.main {
+    background-color: #F9F9F9;
+}
+
+.main_location {
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.main_location_searchinfo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.main_location_searchinfo span {
+    font-size: 14px;
+}
+
+.main_sidebar {
+    float: right;
+    width: 190px;
+    padding: 0 28px;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+
+.main_sidebar a {
+    color: #333;
+}
+
+.main_sidebar_title {
+    padding-left: 20px;
+}
+
+.main_sidebar_container li {
+    margin-top: 5px;
+}
+.main_sidebar_title-text a,
+.main_sidebar_container li a{
+    transition: all .5s;
+    cursor: pointer;
+    display: block;
+    padding-top: 8px;
+    padding-left: 36px;
+}
+
+.main_sidebar_container li a:hover {
+    font-size: 19px;
+    color: #4f66e6;
+    cursor: pointer;
+    background: url(../images/location.png) no-repeat;
+
+}
+.active a{
+	font-size: 19px;
+    color: #4f66e6;
+    cursor: pointer;
+    background: url(../images/location.png) no-repeat;
+}
+.main_content_container {
+    overflow: hidden;
+    border-right: 1px solid #d1d1d1;
+    margin: 15px 0 30px 30px;
+    padding-right: 25px;
+    min-height: 350px;
+}
+
+.main_articleBox_list {
+    padding: 10px 0 50px 0;
+}
+
+.main_articleBox_list li {
+    padding: 7px;
+    border-bottom: 1px dashed #ccc;
+    /*border-bottom: 1px dashed #007EB1;*/
+}
+
+.main_articleBox_list a {
+    color: #333;
+}
+
+.main_articleBox_list a:hover {
+    color: #50A2C5;
+}
+
+.main_articleBox_list li .list_time {
+    float: right;
+    margin-left: 50px;
+}
+
+.main_articleBox_list li .list_title {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main_content_page {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+}
+.main_content_page a,
+.main_content_page span{ 
+	color: #333;
+}
+
+.main_content_page_count {
+    margin-right: 150px;
+}
+.main_content_page_change a:hover{
+	color: #007EB2;
+}
+.footer {
+    margin-top: 0px;
+}

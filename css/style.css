@@ -146,7 +146,8 @@ button {
 }
 
 .item_ul li a {
-    color: #2b2b2b;
+    /*color: #2b2b2b;*/
+    color: #333;
     display: inline-block;
     width: 220px;
     white-space: nowrap;
@@ -220,6 +221,7 @@ button {
 }
 
 .footer {
+    margin: 0 auto;
     margin-top: 20px;
     padding: 12px 0px;
     background: #007EB1;
@@ -231,5 +233,7 @@ button {
 }
 
 .footer p {
-    margin: 5px 0px;
+    margin: 5px auto;
+    text-align: center;
+    display: block;
 }
