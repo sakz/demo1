@@ -35,8 +35,10 @@ button {
 }
 
 .header_search input {
+	float: left;
     width: 170px;
     height: 25px;
+    line-height: 25px;
     padding-right: 42px;
     border-radius: 10px;
     text-indent: 1em;
@@ -49,6 +51,7 @@ button {
 }
 
 .header_search .btn {
+	float: left;
     width: 40px;
     height: 25px;
     border-radius: 10px;
@@ -82,7 +85,6 @@ button {
 
 .header_nav ul li a {
     display: block;
-    /*padding: 10px 35px;*/
     padding: 10px 0px;
     font-size: 18px;
     font-weight: bold;

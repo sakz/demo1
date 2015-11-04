@@ -21,6 +21,9 @@
 .main_location_searchinfo span {
     font-size: 14px;
 }
+.main_location_searchinfo a{
+	color: #333;
+}
 
 .main_sidebar {
     float: right;
