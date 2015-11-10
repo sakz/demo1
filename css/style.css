@@ -16,6 +16,11 @@ button {
     outline: none;
 }
 
+.example2{}
+.example2 ol{position:relative;width: 80px;height: 20px;top:-22px;left:520px;}
+.example2 ol li{float:left;width: 14px;height: 14px;margin: 2px;background: #fff;text-align: center;line-height: 14px;font-size: 12px;cursor: pointer;}
+.example2 ol li.seleted{background: #1AA4CA;}
+
 .grid {
     width: 1100px;
     margin: 0 auto;
