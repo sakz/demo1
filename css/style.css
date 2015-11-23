@@ -148,6 +148,7 @@ button {
 }
 
 .item_ul li {
+    height:23px;
     padding: 7px 15px;
     border-bottom: 1px dashed #ccc;
 }
